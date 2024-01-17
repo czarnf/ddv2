@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, height=device-height , initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/DDD App/style.css" />
+  <link rel="stylesheet" href="dash.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <header class="cover-header">
+    <a href="/index.html" class="headerlink">
+      <h1>Bristol Parks & Gardens</h1>
+      <p class="header-p">
+        Exploring Green Spaces and Cycling Routes in Bristol
+      </p>
+    </a>
+    <a href="/index.html">
+      <button class="btn btn-danger ms-1 position-absolute top-0 end-0" style="width: 3rem; height: 3rem;"><i class="fa fa-sign-out" aria-hidden="true"></i></button>
+    </a>
+  </header>
+
+  <!-- <div>
+      <a href="/DDD App/nav/nav.html">
+        <button class="btn btn-danger">Start New Ride</button>
+      </a>
+    </div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col" style="height: 45rem;">
+        <div class="container mt-4 mb-4 p-3 d-flex justify-content-center">
+          <div class="card p-4">
+            <div class=" image d-flex flex-column justify-content-center align-items-center"> <button
+                class="btn btn-white"> <img src="https://bootdey.com/img/Content/avatar/avatar1.png" height="100"
+                  width="100" /></button> <span class="name mt-3">Emmanuel Chiefson</span> <span
+                class="idd">@nuelman44</span>
+              <div class="d-flex flex-row justify-content-center align-items-center gap-2"> <span
+                  class="idd1">Oxc4c16a645_b21a</span> <span><i class="fa fa-copy"></i></span> </div>
+              <div class="d-flex flex-row justify-content-center align-items-center mt-3"> <span class="number">109
+                  <span class="follow">Friends</span></span> </div>
+              <div class=" d-flex mt-2"> <button class="btn1 btn-dark">Edit Profile</button> </div>
+              <div class="text mt-1"> <span>Gold medal Cyclist 2023 Summer Race.<br><br> Gold medal Team Relay Rally
+                  2023 </span> </div>
+              <div class="gap-3 mt-3 icons d-flex flex-row justify-content-center align-items-center"> <span><i
+                    class="fa fa-twitter"></i></span> <span><i class="fa fa-facebook-f"></i></span> <span><i
+                    class="fa fa-instagram"></i></span> <span><i class="fa fa-linkedin"></i></span> </div>
+              <div class=" px-2 rounded mt-4 date "> <span class="join">Joined May,2022</span> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dashboard border border-dark rounded-top rounded-bottom bg-light text-align-center">
+          <!-- <div class="quick-links">
+              <div class="icon-container">
+                <a href="www.google.com">
+                  <div class="image"><img src="/DDD App/dashboard/stats.jpg" alt="Link 1 Thumbnail" /></div>
+                  <p class="text-center">Link 1</p>
+                </a>
+              </div>
+              <div class="quick-link">
+                <a href="#link1">
+                  <img src="/DDD App/dashboard/stats.jpg" alt="Link 1 Thumbnail" />
+                  <p>Link 1</p>
+                </a>
+              </div>
+              <div class="quick-link">
+                <a href="#link2">
+                  <img src="/DDD App/dashboard/trophies.png" alt="Link 2 Thumbnail" />
+                  <span>Link 2</span>
+                </a>
+              </div>
+              <div class="quick-link">
+                <a href="#link3">
+                  <img src="/DDD App/dashboard/upcoming.png" alt="Link 2 Thumbnail" />
+                  <span>Link 2</span>
+                </a>
+              </div>
+              <div class="quick-link">
+                <a href="#link4">
+                  <img src="/DDD App/dashboard/chat room.png" alt="Link 2 Thumbnail" />
+                  <span>Link 2</span>
+                </a>
+              </div>
+              <div class="quick-link">
+                <a href="#link5">
+                  <img src="/DDD App/dashboard/friends.jpg" alt="Link 2 Thumbnail" />
+                  <span>Link 2</span>
+                </a>
+              </div>
+              <div class="quick-link">
+                <a href="#link5">
+                  <img src="/DDD App/dashboard/groups.png" alt="Link 2 Thumbnail" />
+                  <span>Link 2</span>
+                </a>
+              </div>
+              <div class="quick-link">
+                <a href="#linkb7">
+                  <img src="/DDD App/dashboard/leaderboard.png" alt="Link 2 Thumbnail" />
+                  <span>Link 2</span>
+                </a>
+              </div>
+              <div class="quick-link">
+                <a href="#link8">
+                  <img src="/DDD App/dashboard/progress.jpg" alt="Link 8 Thumbnail" />
+                  <span>Link 8</span>
+                </a>
+              </div>
+            </div> -->
+
+          <div class="quick-links">
+            <div class="icon-container text-align-center stat">
+              <a href="www.google.com">
+                <div class="image btn border border-dark backgroundFiller" style="height: 13rem; width: 13rem;">
+                  <img src="/DDD App/dashboard/stats.png" alt="Link 1 Thumbnail" />
+                  <!-- <img src = "/DDD App/dashboard/SVGs/progress.svg" alt="My progress SVG" height="180"/> -->
+                </div>
+              </a>
+              <p class="text-center fw-bolder">STATS <i class="fa fa-bar-chart" aria-hidden="true"></i></p>
+            </div>
+            <div class="icon-container text-align-center border-dark stat">
+              <a href="www.google.com">
+                <div class="image btn border border-dark backgroundFiller" style="height: 13rem; width: 13rem;">
+                  <img src="/DDD App/dashboard/trophy.png" alt="Link 1 Thumbnail" />
+                </div>
+              </a>
+              <p class="text-center fw-bolder">TROPHIES & AWARDS <i class="fa fa-trophy" aria-hidden="true"></i></p>
+            </div>
+            <div class="icon-container text-align-center border-dark stat">
+              <a href="www.google.com">
+                <div class="image btn border border-dark backgroundFiller" style="height: 13rem; width: 13rem;">
+                  <img src="/DDD App/dashboard/trophyupcoming.png" alt="Link 1 Thumbnail" />
+                </div>
+              </a>
+              <p class="text-center fw-bolder">UPCOMING ACTIVITIES <i class="fa fa-tasks" aria-hidden="true"></i></p>
+            </div>
+            <div class="icon-container text-align-center border-dark stat">
+              <a href="www.google.com">
+                <div class="image btn border border-dark backgroundFiller" style="height: 13rem; width: 13rem;">
+                  <img src="/DDD App/dashboard/chat.png" alt="Link 1 Thumbnail" />
+                </div>
+              </a>
+              <p class="text-center fw-bolder">CHAT ROOM <i class="fa fa-comments" aria-hidden="true"></i></p>
+            </div>
+            <div class="icon-container text-align-center border-dark stat">
+              <a href="www.google.com">
+                <div class="image btn border border-dark backgroundFiller" style="height: 13rem; width: 13rem;">
+                  <img src="/DDD App/dashboard/friends.png" alt="Link 1 Thumbnail" />
+                </div>
+              </a>
+              <p class="text-center fw-bolder">FRIENDS <i class="fa fa-users" aria-hidden="true"></i></p>
+            </div>
+            <div class="icon-container text-align-center border-dark stat">
+              <a href="www.google.com">
+                <div class="image btn border border-dark backgroundFiller" style="height: 13rem; width: 13rem;">
+                  <img src="/DDD App/dashboard/groupsWhim.png" alt="Link 1 Thumbnail" />
+                </div>
+              </a>
+              <p class="text-center fw-bolder">GROUPS <i class="fa fa-user-times" aria-hidden="true"></i></p>
+            </div>
+            <div class="icon-container text-align-center border-dark stat">
+              <a href="www.google.com">
+                <div class="image btn border border-dark backgroundFiller" style="height: 13rem; width: 13rem;">
+                  <img src="/DDD App/dashboard/learderboard.png" alt="Link 1 Thumbnail" />
+                </div>
+              </a>
+              <p class="text-center fw-bolder">LEADERBOARD <i class="fa fa-rocket" aria-hidden="true"></i></p>
+            </div>
+            <div class="icon-container text-align-center border-dark stat">
+              <a href="www.google.com">
+                <div class="image btn border border-dark backgroundFiller" style="height: 13rem; width: 13rem;">
+                  <div class="mt-3">
+                    <img src="/DDD App/dashboard/progress.png" alt="Link 1 Thumbnail" />
+                  </div>
+              
+                </div>
+              </a>
+              <p class="text-center fw-bolder">PROGRESS <i class="fa fa-spinner" aria-hidden="true"></i></p>
+            </div>
+          </div>
+          <div class="rounded-bottom rounded-top  d-flex justify-content-center" style="height: 8rem; width: 56rem;">
+          
+            <button onclick="openNav()" class="btn btn-success d-flex justify-content-center" style="height: 5rem; width: 36rem;"><i
+                class="fa fa-3x fa-bicycle ms-3" aria-hidden="true"></i>
+              <h3 class="ms-2">Start New Ride</h3>
+            </button>
+          </a>
+            <!-- <butn class="btn btn-success" style="height: 5rem; width: 36rem;"><i class="fa fa-5x fa-bicycle" aria-hidden="true"></i><h3>Start New Ride</h3></butn> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="bg-dark rounded-bottom rounded-top"  style="height: 8rem; width: 56rem;">
+<butn class="btn backgroundFiller" style="height: 4rem; width: 36rem;"><i class="fa fa-5x fa-bicycle ms-3" aria-hidden="true"></i><h4>Start New Ride</h4></butn>
+    </div> -->
+</body>
+
+<footer class="site-footer">
+  <p>Privacy Policy ~ Terms & Conditions</p>
+  <p>&copy; 2023 Your Website. All rights reserved.</p>
+</footer>
+
+
+<script>
+  function openNav(){
+    
+    window.location.replace("/DDD App/nav/nav.html");
+  }
+</script>
+</html>
